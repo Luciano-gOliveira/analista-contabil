@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #242424;
+  font-size: 2rem;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+}
+
+.card {
+  background: rgb(74, 29, 147);
+  background: linear-gradient(
+    10deg,
+    rgba(74, 29, 147, 1) 0%,
+    rgba(0, 0, 36, 1) 83%,
+    rgba(8, 0, 74, 1) 100%
+  );
+
+  width: 900px;
+  height: 1000px;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header div{
+    background-color: rgb(207, 10, 10);
+    color: white;
+    font-size: 3.5rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-TOP: 30px;
+}
+
+.corpo {
+  padding: 10px 20px 50px 20px;
+  background-color: #110c44;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h1{
+    margin: 15px auto 70px auto;
+    text-align: center;
+}
+
+section{
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
+p {
+  text-align: justify;
+}
+
+span {
+  color: rgb(228, 224, 9);
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.email{
+    background-color: #9c1212;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
