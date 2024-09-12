@@ -16,12 +16,12 @@ body {
 }
 
 .card {
-  background: rgb(74, 29, 147);
+  background: #4a1d93;
   background: linear-gradient(
     10deg,
-    rgba(74, 29, 147, 1) 0%,
-    rgba(0, 0, 36, 1) 83%,
-    rgba(8, 0, 74, 1) 100%
+    #4a1d93 0%,
+    #000024 83%,
+    #08004a 100%
   );
 
   width: 1100px;
@@ -83,9 +83,11 @@ ul li {
 }
 
 .email {
-  background-color: #9c1212;
-  color: white;
-  padding: 10px 15px;
+  background-color: #f8f8f8;
+  color: #141414;
+  padding: 20px;
   margin-top: 5px;
   border-radius: 5px;
+  font-size: 24px;
+  font-weight: 500;
 }
